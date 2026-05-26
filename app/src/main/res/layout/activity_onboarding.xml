@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e0e12"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="48dp"
+        android:minHeight="600dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔥"
+            android:textSize="72sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forge"
+            android:textSize="48sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Build the best version of yourself.\nOne day at a time."
+            android:textSize="16sp"
+            android:textColor="#aaaaaa"
+            android:gravity="center"
+            android:layout_marginBottom="64dp"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your name"
+            android:textColorHint="#555555"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:padding="20dp"
+            android:background="@drawable/input_bg"
+            android:layout_marginBottom="16dp"
+            android:inputType="textCapWords"/>
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let&#8217;s go →"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:padding="20dp"
+            android:background="@drawable/btn_bg"/>
+
+    </LinearLayout>
+</ScrollView>
