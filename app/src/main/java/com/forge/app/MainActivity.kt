@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
             itemIconTintList = null
             inflateMenu(R.menu.bottom_nav)
             itemTextColor = android.content.res.ColorStateList.valueOf(Color.WHITE)
-            itemActiveIndicatorColor = android.content.res.ColorStateList.valueOf(Color.parseColor("#7c6fe0"))
+          
         }
 
         root.addView(container)
