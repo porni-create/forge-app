@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Forge" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Forge" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">#7c6fe0</item>
-        <item name="colorPrimaryVariant">#5a4fc0</item>
         <item name="colorOnPrimary">#ffffff</item>
         <item name="colorSecondary">#7c6fe0</item>
         <item name="colorOnSecondary">#ffffff</item>
@@ -14,13 +13,11 @@
         <item name="android:textColorSecondary">#aaaaaa</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetTheme</item>
     </style>
-
-    <style name="BottomSheetTheme" parent="Theme.MaterialComponents.BottomSheetDialog">
+    <style name="BottomSheetTheme" parent="ThemeOverlay.Material3.BottomSheetDialog">
         <item name="android:windowIsFloating">false</item>
         <item name="bottomSheetStyle">@style/BottomSheet</item>
     </style>
-
-    <style name="BottomSheet" parent="Widget.MaterialComponents.BottomSheet.Modal">
+    <style name="BottomSheet" parent="Widget.Material3.BottomSheet.Modal">
         <item name="backgroundTint">#16161e</item>
     </style>
 </resources>
